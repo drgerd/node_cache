@@ -1,0 +1,102 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Heorhi_Vilkitski\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\HEORHI~1\\AppData\\Local\\Temp\\npm-2584-ng02elF9\\1421066832472-0.8508875092957169\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz
+13 verbose folder .
+14 info prepublish node_cache@0.0.1
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Heorhi_Vilkitski\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 6fae3943-32472-0-8508875092957169-tmp-tgz tar://C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz
+18 verbose lock tar://C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz C:\Users\Heorhi_Vilkitski\AppData\Roaming\npm-cache\6fae3943-32472-0-8508875092957169-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 6fae3943-32472-0-8508875092957169-tmp-tgz tar://C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz
+22 silly lockFile 6fae3943-32472-0-8508875092957169-tmp-tgz tar://C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz
+23 verbose tar unpack C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz
+24 silly lockFile 1396adae-m-cache-node-cache-0-0-1-package tar://C:\Users\Heorhi_Vilkitski\AppData\Roaming\npm-cache\node_cache\0.0.1\package
+25 verbose lock tar://C:\Users\Heorhi_Vilkitski\AppData\Roaming\npm-cache\node_cache\0.0.1\package C:\Users\Heorhi_Vilkitski\AppData\Roaming\npm-cache\1396adae-m-cache-node-cache-0-0-1-package.lock
+26 silly lockFile 6fae3943-32472-0-8508875092957169-tmp-tgz tar://C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz
+27 verbose lock tar://C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz C:\Users\Heorhi_Vilkitski\AppData\Roaming\npm-cache\6fae3943-32472-0-8508875092957169-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry index.js
+32 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+33 silly gunzTarPerm extractEntry storage_model.js
+34 silly gunzTarPerm modified mode [ 'storage_model.js', 438, 420 ]
+35 silly gunzTarPerm extractEntry .hgignore
+36 silly gunzTarPerm modified mode [ '.hgignore', 438, 420 ]
+37 silly gunzTarPerm extractEntry .idea/.name
+38 silly gunzTarPerm modified mode [ '.idea/.name', 438, 420 ]
+39 silly gunzTarPerm extractEntry .idea/encodings.xml
+40 silly gunzTarPerm modified mode [ '.idea/encodings.xml', 438, 420 ]
+41 silly gunzTarPerm extractEntry .idea/jsLibraryMappings.xml
+42 silly gunzTarPerm modified mode [ '.idea/jsLibraryMappings.xml', 438, 420 ]
+43 silly gunzTarPerm extractEntry .idea/libraries/node_cache_node_modules.xml
+44 silly gunzTarPerm modified mode [ '.idea/libraries/node_cache_node_modules.xml', 438, 420 ]
+45 silly gunzTarPerm extractEntry .idea/misc.xml
+46 silly gunzTarPerm modified mode [ '.idea/misc.xml', 438, 420 ]
+47 silly gunzTarPerm extractEntry .idea/modules.xml
+48 silly gunzTarPerm modified mode [ '.idea/modules.xml', 438, 420 ]
+49 silly gunzTarPerm extractEntry .idea/node_cache.iml
+50 silly gunzTarPerm modified mode [ '.idea/node_cache.iml', 438, 420 ]
+51 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+52 silly gunzTarPerm modified mode [ '.idea/scopes/scope_settings.xml', 438, 420 ]
+53 silly gunzTarPerm extractEntry .idea/vcs.xml
+54 silly gunzTarPerm modified mode [ '.idea/vcs.xml', 438, 420 ]
+55 silly gunzTarPerm extractEntry .idea/workspace.xml
+56 silly gunzTarPerm modified mode [ '.idea/workspace.xml', 438, 420 ]
+57 silly gunzTarPerm extractEntry test/apiTest.js
+58 silly gunzTarPerm modified mode [ 'test/apiTest.js', 438, 420 ]
+59 silly gunzTarPerm extractEntry test/initTest.js
+60 silly gunzTarPerm modified mode [ 'test/initTest.js', 438, 420 ]
+61 silly gunzTarPerm extractEntry test.bat
+62 silly gunzTarPerm modified mode [ 'test.bat', 438, 420 ]
+63 silly lockFile 1396adae-m-cache-node-cache-0-0-1-package tar://C:\Users\Heorhi_Vilkitski\AppData\Roaming\npm-cache\node_cache\0.0.1\package
+64 silly lockFile 1396adae-m-cache-node-cache-0-0-1-package tar://C:\Users\Heorhi_Vilkitski\AppData\Roaming\npm-cache\node_cache\0.0.1\package
+65 silly lockFile 6fae3943-32472-0-8508875092957169-tmp-tgz tar://C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz
+66 silly lockFile 6fae3943-32472-0-8508875092957169-tmp-tgz tar://C:\Users\HEORHI~1\AppData\Local\Temp\npm-2584-ng02elF9\1421066832472-0.8508875092957169\tmp.tgz
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'node_cache',
+69 silly publish   description: 'A simple cache module for node js',
+69 silly publish   version: '0.0.1',
+69 silly publish   author: { name: 'gerd', email: 'drjorsh@gmail.com' },
+69 silly publish   scripts: { test: '' },
+69 silly publish   dependencies: { karma: '*', mocha: '*', should: '*' },
+69 silly publish   readme: 'ERROR: No README data found!',
+69 silly publish   _id: 'node_cache@0.0.1',
+69 silly publish   _shasum: '69baa63ad8bf179bf3fada0593ddbb6f5d5d72aa',
+69 silly publish   _from: '.' }
+70 error need auth auth and email required for publishing
+70 error need auth You need to authorize this machine using `npm adduser`
+71 error System Windows_NT 6.2.9200
+72 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+73 error cwd D:\Work\Personal\NPM\node_cache
+74 error node -v v0.10.28
+75 error npm -v 1.4.9
+76 error code ENEEDAUTH
+77 verbose exit [ 1, true ]
