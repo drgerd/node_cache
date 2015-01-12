@@ -18,12 +18,28 @@ function setData(key, value){
  * @param callback
  * @returns {*}
  */
-function getData(key, callback){
+function getData(key, valueObj, callback){
 
     var value = global.storage_model[key];
-    if(value == undefined && callback)
+    if(value == undefined && valueObj)
     {
-       value = this.setData(key, callback());
+        value = valueObj instanceof Function
+            ? valueObj()
+            : valueObj instanceof Object
+                ? valueObj
+                : undefined;
+
+       if(value == undefined){
+           if(callback && callback instanceof Function){
+               callback(undefined);
+           }
+           return undefined;
+       }
+       this.setData(key, value);
+    }
+
+    if(callback && callback instanceof Function){
+        callback(value);
     }
 
     return value;

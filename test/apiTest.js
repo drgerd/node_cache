@@ -68,7 +68,7 @@ suite('Api node_cache', function(){
         });
 
 
-        test("GetData method cache hasn't value by key => callback for setData should be run ", function(){
+        test("GetData method cache hasn't value by key => callbackObj for setData should be run ", function(){
             var key = "key";
             var value = {test:"test"};
 
@@ -87,6 +87,22 @@ suite('Api node_cache', function(){
             // check if callback is undefined
             node_cache_instance.clearData(key);
             assert.strictEqual(node_cache_instance.getData(key), undefined);
+
+        });
+
+
+        test("GetData method using callback for Async and Object as setterObj", function(){
+            var key = "key";
+            var value = {test:"test"};
+
+            var return_obj;
+
+            var node_cache_instance = require('../index');
+
+            assert.strictEqual(node_cache_instance.getData(key, value, function(result){return_obj = result;}), value);
+            assert.strictEqual(value, return_obj);
+
+           // done();
 
         });
 
