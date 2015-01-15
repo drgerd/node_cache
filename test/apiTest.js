@@ -6,6 +6,7 @@
  * Created by Heorhi_Vilkitski on 1/9/2015.
  */
 var assert = require('assert');
+var Q = require('q');
 var Storage_model = require('../storage_model').storage_model;
 
 suite('Api node_cache', function(){
@@ -71,12 +72,20 @@ suite('Api node_cache', function(){
         test("GetData method cache hasn't value by key => callbackObj for setData should be run ", function(){
             var key = "key";
             var value = {test:"test"};
+            var asserts = 0;
 
-            var callbackForValue = function(){
-                return value;
+           // var deferred = Q.defer();
+
+            var callbackForValue = function(callbackSetter){
+                callbackSetter(value);
             };
 
+
             var node_cache_instance = require('../index');
+
+
+//            deferred
+//             node_cache_instance.getData(key, callbackForValue)
 
             assert.strictEqual(node_cache_instance.getData(key, callbackForValue), value);
 
@@ -101,8 +110,6 @@ suite('Api node_cache', function(){
 
             assert.strictEqual(node_cache_instance.getData(key, value, function(result){return_obj = result;}), value);
             assert.strictEqual(value, return_obj);
-
-           // done();
 
         });
 
